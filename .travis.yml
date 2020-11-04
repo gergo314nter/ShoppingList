@@ -6,7 +6,7 @@ cache:
   directories:
     - $HOME/.m2
 
-before_install: cd Spring
+before_install: cd Spring\shoppingList
 install: true
 
 script: mvn -B test 
